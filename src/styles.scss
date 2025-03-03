@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+  .hero {
+    background-image: url('https://example.com/gelato.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .hero h2 {
+    font-size: 2.5em;
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .menu-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  .menu-item img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+  }
+  .menu-item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+  }
+  .menu-item p {
+    color: #777;
+  }
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }

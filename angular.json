@@ -23,6 +23,7 @@
             "polyfills": [
               "zone.js"
             ],
+            "baseHref": "/",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -94,6 +95,13 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://homeofgelato.in/",
+            "name": "homeofgelato"
           }
         }
       }
